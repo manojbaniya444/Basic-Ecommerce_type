@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+.home {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 30px;
+  border: none;
+  background-color: #443c68;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.19s ease;
+  margin-top: 9px;
+  font-size: 2rem;
+}
+.home:hover {
+  background-color: #655c8f;
+}
+.noItem {
+  text-align: center;
+  height: 100vh;
+}
+.noItem h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: #443c68;
+}
+.back {
+  padding: 15px 30px;
+  border: none;
+  background-color: #443c68;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.19s ease;
+}
+.back:hover {
+  background-color: #655c8f;
+}
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 5px;
+  font-family: "Signika Negative", sans-serif;
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin: 5px 20px;
+}
+.cart-container {
+  padding: 0px 20px 40px 20px;
+}
+.productInfo {
+  /* background-color: red; */
+  flex: 1;
+}
+.button-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.price {
+  margin-top: 9px;
+}
+.title {
+  margin-top: 9px;
+  font-size: 1.3rem;
+}
+.button-container button {
+  padding: 4px;
+  cursor: pointer;
+  margin-top: 9px;
+}
+.totalItem {
+  margin: 0 5px;
+  font-size: 1.2rem;
+}
+
+.specialbtn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+.stockAlert {
+  margin-top: 9px;
+  color: red;
+}
+.hideStockAlert {
+  visibility: hidden;
+}
+.removeItem {
+  margin-top: 9px;
+  padding: 5px 7px;
+  border: none;
+  background-color: #443c68;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.19s ease;
+}
+.removeItem:hover {
+  background-color: #655c8f;
+}

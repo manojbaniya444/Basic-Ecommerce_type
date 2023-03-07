@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top {
+  background-color: rgb(245, 245, 245);
+  /* background-color: white; */
+}
+.alert {
+  padding: 30px;
+  /* width: 100px;
+  height: 100px; */
+  background-color: rgb(242, 239, 239);
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 1.3rem;
+  color: #443c68;
+  border-radius: 5px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.manoj {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #443c68;
+}
+.main-container {
+  background-color: rgb(245, 245, 245);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+article {
+  padding: 15px;
+  background-color: white;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+article img {
+  width: 200px;
+  height: 200px;
+}
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  background-color: rgb(245, 245, 245);
+}
+.item-price {
+  color: rgb(193, 187, 187);
+  margin: 5px 0px;
+}
+.item-name {
+  font-size: 1.2rem;
+}
+.add-button {
+  padding: 5px 9px;
+  border: none;
+  background-color: #443c68;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.19s ease;
+}
+.add-button:hover {
+  background-color: #655c8f;
+}
+
+@media (max-width: 1000px) {
+  .item-container {
+    grid-template-columns: 1fr 1fr;
+    /* margin: 5px; */
+    gap: 5px;
+  }
+}
+@media (max-width: 521px) {
+  .item-container {
+    grid-template-columns: 1fr;
+  }
+}

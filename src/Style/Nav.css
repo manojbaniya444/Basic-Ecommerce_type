@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background-color: #635985;
+}
+nav .cart {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.12s ease;
+}
+nav h3 {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.12s ease;
+}
+nav h3:hover {
+  color: rgb(25, 25, 25);
+}
+
+nav .cart:hover {
+  color: rgb(25, 25, 25);
+}
+.totalAmount {
+  color: rgb(211, 206, 206);
+}
+.flexCart{
+  position: relative;
+}
+.flexCart h2{
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  font-size: 2rem;
+  color: white;
+  padding: 0px 9px;
+  border-radius: 50%;
+  background-color: #1e1343;
+}
